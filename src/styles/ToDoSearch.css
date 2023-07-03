@@ -1,0 +1,36 @@
+.input-container {
+    padding: 0 5.2rem 2.4rem 5.2rem;
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    height: 2.2rem;
+    width: 2.2rem;
+    bottom: 3.5rem;
+    left: 6.4rem;
+}
+
+.searchIcon svg {
+    height: inherit;
+    width: inherit;
+}
+
+.ToDoSearch {
+    width: 100%;
+    padding: 1.2rem 4rem;
+    border: 0.1rem solid #d2d2d2;
+    border-radius: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+.ToDoSearch:focus-visible {
+    outline: none;
+}
+
+.ToDoSearch::placeholder {
+    color: #d2d2d2;
+    font-family: 'Quicksand', sans-serif;
+}

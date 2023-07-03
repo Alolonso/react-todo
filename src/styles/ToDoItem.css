@@ -1,0 +1,34 @@
+.ToDoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F4F5;;
+    padding: 2.4rem;
+    margin-bottom: 0.8rem;
+    border-radius: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.ToDoItem-div-container{
+  display: flex;
+  align-items: center;
+}
+
+.ToDoItem-Icon {
+  cursor: pointer;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.ToDoItem-Icon svg {
+  width: inherit;
+  height: inherit;
+}
+
+.ToDoItem-CheckIcon {
+  margin: 0 2.4rem 0 0;
+}
+
+.ToDoItem-CloseIcon{
+  margin: 0 0 0 2.4rem;
+}
